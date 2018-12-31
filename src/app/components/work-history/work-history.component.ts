@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-work-history',
-  templateUrl: './work-history.component.html',
-  styleUrls: ['./work-history.component.sass']
+  templateUrl: './work-history.component.html'
 })
 export class WorkHistoryComponent implements OnInit {
 

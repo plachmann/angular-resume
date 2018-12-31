@@ -10,6 +10,7 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { SideComponent } from './side/side.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     SkillsComponent,
     AboutMeComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    SideComponent
   ],
   imports: [
     BrowserModule,
