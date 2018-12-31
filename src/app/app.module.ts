@@ -11,6 +11,7 @@ import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SideComponent } from './side/side.component';
+import { PortfolioComponent } from './components/portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { SideComponent } from './side/side.component';
     AboutMeComponent,
     HomeComponent,
     NavbarComponent,
-    SideComponent
+    SideComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
