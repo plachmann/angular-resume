@@ -422,6 +422,27 @@ button {
     z-index: 9999;
 }
 
+.fit-picture {
+    width: 125px;
+    padding: 10px;
+}
+
+.centertext {
+    text-align: center;
+}
+
+.img-with-text {
+    text-align: center;
+    width: 100px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
 #status {
     background-image: url(assets/img/preloader.svg);
     background-position: center;
